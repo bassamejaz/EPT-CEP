@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./components/Home";
+// import Navigation from "./Navigation";
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
+import Calculate from "./components/Calculate";
+import About from "./components/About";
+import { useEffect, useState } from "react";
 
-function App() {
+const App = () => {
+  
+  // console.log(isPhone);
+  const appStyle = {
+    backgroundColor: "black", // Set your desired background color
+    minHeight: "100vh", // Ensures the background covers the entire viewport height
+    padding: "20px", // Add padding if needed
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={appStyle}>
+      <Router>
+        <ResponsiveAppBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/calculate" element={<Calculate />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </Router>
     </div>
   );
-}
+};
 
 export default App;

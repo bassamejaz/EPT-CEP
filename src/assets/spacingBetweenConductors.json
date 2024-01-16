@@ -1,9 +1,0 @@
-[
-  { "Line voltage": 0.4, "Spacing (m)": 0.2 },
-  { "Line voltage": 11.0, "Spacing (m)": 1.2 },
-  { "Line voltage": 33.0, "Spacing (m)": 2.0 },
-  { "Line voltage": 66.0, "Spacing (m)": 2.5 },
-  { "Line voltage": 132.0, "Spacing (m)": 3.5 },
-  { "Line voltage": 220.0, "Spacing (m)": 6.0 },
-  { "Line voltage": 400.0, "Spacing (m)": 11.5 }
-]

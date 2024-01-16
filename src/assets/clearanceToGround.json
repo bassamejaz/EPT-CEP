@@ -1,0 +1,38 @@
+[
+  {
+    "KV": 0.4,
+    "Across Street (m)": 5.8,
+    "Along Street (m)": 5.5,
+    "Other Areas (m)": 4.6
+  },
+  {
+    "KV": 11.0,
+    "Across Street (m)": 5.8,
+    "Along Street (m)": 5.5,
+    "Other Areas (m)": 4.6
+  },
+  {
+    "KV": 33.0,
+    "Across Street (m)": 6.1,
+    "Along Street (m)": 5.8,
+    "Other Areas (m)": 5.2
+  },
+  {
+    "KV": 66.0,
+    "Across Street (m)": 6.1,
+    "Along Street (m)": 6.1,
+    "Other Areas (m)": 5.5
+  },
+  {
+    "KV": 132.0,
+    "Across Street (m)": 6.1,
+    "Along Street (m)": 6.1,
+    "Other Areas (m)": 6.1
+  },
+  {
+    "KV": 220.0,
+    "Across Street (m)": 7.0,
+    "Along Street (m)": 7.0,
+    "Other Areas (m)": 7.0
+  }
+]
